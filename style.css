@@ -1,0 +1,17 @@
+body{
+    background: conic-gradient(from 3.1416rad at 10% 50%, #e66465, #9198e5);
+}
+canvas{
+    animation-name: b;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes b {
+    from{
+        box-shadow: 5px 5px 100px rgb(229, 255, 0);
+    } 
+    to{
+        box-shadow: 5px 5px 100px rgb(255, 0, 0);
+    }
+
+}
